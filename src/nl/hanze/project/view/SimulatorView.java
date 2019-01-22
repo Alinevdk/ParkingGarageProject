@@ -16,9 +16,6 @@ public class SimulatorView extends JFrame {
     private int numberOfOpenSpots;
     private Car[][][] cars;
 
-    // New frames for the GUI.
-    JFrame frame = new JFrame(); // initialiseert & maakt een JFrame frame
-
     //the Simple GUI that is created being called
     private SimulatorGUI SimpleGUI;
     private SimulationSettingGUI test;
@@ -26,6 +23,7 @@ public class SimulatorView extends JFrame {
     private TitleView Titel;
 
     public SimulatorView(int numberOfFloors, int numberOfRows, int numberOfPlaces) {
+        this.numberOfFloors = numberOfFloors;
         this.numberOfFloors = numberOfFloors;
         this.numberOfRows = numberOfRows;
         this.numberOfPlaces = numberOfPlaces;
@@ -37,41 +35,33 @@ public class SimulatorView extends JFrame {
         setTitle("City Parking Groningen");
 
 
-        //test for calling a new screen at the same time as that main runs
+        //  test for calling a new screen at the same time as that main runs
         SimpleGUI = new SimulatorGUI();
         test = new SimulationSettingGUI();
         test2 = new HistogramSettingGUI();
         Titel = new TitleView();
 
-      /*    Maakt een frame aan met specifieke definities, en voegt hier Titel aan toe
-
-        frame.add(Titel);
-        frame.setLayout(new FlowLayout());
-        Titel.setPreferredSize(new Dimension(250,250));
-        frame.setSize(400,400);
-        frame.setVisible(true);
-        */
-
+        // Tabbed panel
         JTabbedPane tabbedPane = new JTabbedPane(); // initialiseert & maakt een tab-menu
         tabbedPane.addTab("Histogram Bezetting", new TitleView());
         tabbedPane.addTab("Histogram Winst", new TitleView());
-        tabbedPane.setTabPlacement(JTabbedPane.LEFT);
-        tabbedPane.setSize(500,500);
+        tabbedPane.setTabPlacement(JTabbedPane.TOP);
 
         Container contentPane = getContentPane();
+        // Element at the MIDDLE of the application
         contentPane.add(carParkView, BorderLayout.CENTER);
-        contentPane.add(SimpleGUI, BorderLayout.SOUTH);
-        contentPane.add(test, BorderLayout.WEST);
-       // contentPane.add(test2, BorderLayout.EAST);
+        // Element at the TOP of the application
         contentPane.add(Titel, BorderLayout.NORTH);
-       // contentPane.add(frame, BorderLayout.NORTH);
+        // Element at the RIGHT SIDE of the application
         contentPane.add(tabbedPane,BorderLayout.EAST);
-        contentPane.setSize(400,400);
+        // Element at the BOTTOM of the application
+        contentPane.add(SimpleGUI, BorderLayout.SOUTH);
+        // Element at the LEFT SIDE of the application
+        contentPane.add(test, BorderLayout.WEST);
 
 
         pack();
         setVisible(true);
-
         updateView();
     }
 

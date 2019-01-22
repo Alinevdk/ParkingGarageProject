@@ -13,6 +13,7 @@ import static java.util.stream.Collectors.summingInt;
 import static java.util.stream.Collectors.toMap;
 import static java.util.stream.IntStream.range;
 
+import java.awt.*;
 import java.util.DoubleSummaryStatistics;
 import java.util.List;
 import java.util.Map;
@@ -29,6 +30,7 @@ import java.util.Map;
 public class HistogramView extends JPanel
 {
     private static final String[] CHARACTERS = { "▁", "▂", "▃", "▅", "▆", "▇" };
+
 
 
     private List<Double> data;

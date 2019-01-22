@@ -21,9 +21,20 @@ public class SimulationSettingGUI extends JPanel implements ActionListener{
         Box box = Box.createVerticalBox();
         add(box);
 
+        /**
+         * Bepaald de gewenste voorkeur van het veld binnen de simulator.
+         * Als de inhoud van de view niet tot deze dimensies gaat, zal het geforceerd worden.
+         */
+        Dimension dim = new Dimension();
+        dim.setSize(300,500);
+        setPreferredSize(dim);
+
         title = new JLabel("Current value: 0");
         box.add(title);
 
+        /**
+         * Creeert een slider waarmee een value tussen 0 en 250 kan worden geselecteerd
+         */
         slider = new JSlider(JSlider.HORIZONTAL,0,20,0);
         slider.setMajorTickSpacing(5);
         slider.setPaintTicks(true);
@@ -34,9 +45,13 @@ public class SimulationSettingGUI extends JPanel implements ActionListener{
         //title.set();
         setBackground(Color.lightGray);
 
+        /**
+         * Link met simulator values toevoegen zodat waardes in realtime gemanipuleerd kunnen worden
+         */
+
+       /*
         title = new JLabel("Current value: 0");
         box.add(title);
-
         slider1 = new JSlider(JSlider.HORIZONTAL,0,20,0);
         slider1.setMajorTickSpacing(5);
         slider1.setPaintTicks(true);
@@ -46,17 +61,27 @@ public class SimulationSettingGUI extends JPanel implements ActionListener{
         box.add(slider1);
         //title.set();
         setBackground(Color.lightGray);
+         */
 
         event e = new event();
-        slider1.addChangeListener(e);
+        slider.addChangeListener(e);
+      //  slider1.addChangeListener(e);
     }
+
     public void actionPerformed(ActionEvent e) {
 
     }
+
+    /**
+     * Luistert of de slider naar een andere plek is gesleepd en wijzigd de waarde van het bijbehorende label.
+     */
     public class event implements ChangeListener {
         public void stateChanged(ChangeEvent e){
             int value = slider.getValue();
             title.setText("Current value: " + value);
+            /**
+             * Aanpassing van de value van de simulator invoegen, met een update naar de simulator.
+             */
         }
     }
 }
