@@ -4,63 +4,59 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.event.*;
 
 /**
- * @author Casper Scholte-Albers
+ * Credit:
+ * https://www.youtube.com/watch?v=tOO2Fxuq7-g
+ * @author Willem Johan Schuringa
  * @version 0.3
  */
 public class SimulationSettingGUI extends JPanel implements ActionListener{
-    private JButton stepOne;
-    private JButton stepHundred;
-    private JButton stop;
-    private JButton start;
+    private JLabel title;
+    private JSlider slider;
+    private JSlider slider1;
 
     public SimulationSettingGUI() {
-        stepOne = new JButton("1 step");
-        stepHundred = new JButton("100 steps");
-        start = new JButton("Start");
-        stop = new JButton("Stop");
+        Box box = Box.createVerticalBox();
+        add(box);
 
-        stepOne.setBounds(100, 150, 100, 30);
-        stepOne.addActionListener(this);
+        title = new JLabel("Current value: 0");
+        box.add(title);
 
-        stepHundred.setBounds(210, 150, 100, 30);
-        stepHundred.addActionListener(this);
-
-        start.setBounds(320, 150, 100, 30);
-        start.addActionListener(this);
-
-        stop.setBounds(430, 150, 100, 30);
-        stop.addActionListener(this);
-
-        //setBounds(500, 500, 500, 500);
+        slider = new JSlider(JSlider.HORIZONTAL,0,20,0);
+        slider.setMajorTickSpacing(5);
+        slider.setPaintTicks(true);
+        slider.setBackground(Color.lightGray);
+        slider.setMinimum(0);
+        slider.setMaximum(250);
+        box.add(slider);
+        //title.set();
         setBackground(Color.lightGray);
-        add(stepOne);
-        add(stepHundred);
-        add(start);
-        add(stop);
 
+        title = new JLabel("Current value: 0");
+        box.add(title);
+
+        slider1 = new JSlider(JSlider.HORIZONTAL,0,20,0);
+        slider1.setMajorTickSpacing(5);
+        slider1.setPaintTicks(true);
+        slider1.setBackground(Color.lightGray);
+        slider1.setMinimum(0);
+        slider1.setMaximum(250);
+        box.add(slider1);
+        //title.set();
+        setBackground(Color.lightGray);
+
+        event e = new event();
+        slider1.addChangeListener(e);
     }
     public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == stepOne) {
-            JOptionPane.showMessageDialog(null, "test1");
-            //tick()
-        }
-        if (e.getSource() == stepHundred){
-            JOptionPane.showMessageDialog(null, "test100");
-            /*
-            int step = 0;
-            while(step <= 100){
-                tick();
-            }
-             */
-        }
-        if (e.getSource() == start){
-            JOptionPane.showMessageDialog(null, "testStart");
-        }
-        if (e.getSource() == stop){
-            JOptionPane.showMessageDialog(null, "testStop");
-            //suspend();
+
+    }
+    public class event implements ChangeListener {
+        public void stateChanged(ChangeEvent e){
+            int value = slider.getValue();
+            title.setText("Current value: " + value);
         }
     }
 }

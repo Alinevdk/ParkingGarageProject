@@ -14,7 +14,6 @@ public class TitleView extends JPanel{
 
     public TitleView() {
         title = new JLabel("City Parking Groningen");
-        title.setSize(430, 550);
         //title.set();
         setBackground(Color.lightGray);
         add(title);

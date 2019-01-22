@@ -16,6 +16,9 @@ public class SimulatorView extends JFrame {
     private int numberOfOpenSpots;
     private Car[][][] cars;
 
+    // New frames for the GUI.
+    JFrame frame = new JFrame(); // initialiseert & maakt een JFrame frame
+
     //the Simple GUI that is created being called
     private SimulatorGUI SimpleGUI;
     private SimulationSettingGUI test;
@@ -40,12 +43,31 @@ public class SimulatorView extends JFrame {
         test2 = new HistogramSettingGUI();
         Titel = new TitleView();
 
+      /*    Maakt een frame aan met specifieke definities, en voegt hier Titel aan toe
+
+        frame.add(Titel);
+        frame.setLayout(new FlowLayout());
+        Titel.setPreferredSize(new Dimension(250,250));
+        frame.setSize(400,400);
+        frame.setVisible(true);
+        */
+
+        JTabbedPane tabbedPane = new JTabbedPane(); // initialiseert & maakt een tab-menu
+        tabbedPane.addTab("Histogram Bezetting", new TitleView());
+        tabbedPane.addTab("Histogram Winst", new TitleView());
+        tabbedPane.setTabPlacement(JTabbedPane.LEFT);
+        tabbedPane.setSize(500,500);
+
         Container contentPane = getContentPane();
         contentPane.add(carParkView, BorderLayout.CENTER);
         contentPane.add(SimpleGUI, BorderLayout.SOUTH);
         contentPane.add(test, BorderLayout.WEST);
-        contentPane.add(test2, BorderLayout.EAST);
+       // contentPane.add(test2, BorderLayout.EAST);
         contentPane.add(Titel, BorderLayout.NORTH);
+       // contentPane.add(frame, BorderLayout.NORTH);
+        contentPane.add(tabbedPane,BorderLayout.EAST);
+        contentPane.setSize(400,400);
+
 
         pack();
         setVisible(true);

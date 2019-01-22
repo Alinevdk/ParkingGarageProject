@@ -59,6 +59,10 @@ public class Simulator extends AbstractController implements TypeOfCar {
         }
     }
 
+    public int getWeekDayArrivals() {
+        return weekDayArrivals;
+    }
+
     private void tick() {
     	advanceTime();
     	makeReservation();
