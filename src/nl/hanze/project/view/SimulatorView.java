@@ -2,6 +2,7 @@ package nl.hanze.project.view;
 
 import nl.hanze.project.model.*;
 import nl.hanze.project.controller.*;
+import nl.hanze.project.controller.SimulationSettingGUI;
 
 import javax.swing.*;
 import java.awt.*;
@@ -17,6 +18,9 @@ public class SimulatorView extends JFrame {
 
     //the Simple GUI that is created being called
     private SimulatorGUI SimpleGUI;
+    private SimulationSettingGUI test;
+    private HistogramSettingGUI test2;
+    private TitleView Titel;
 
     public SimulatorView(int numberOfFloors, int numberOfRows, int numberOfPlaces) {
         this.numberOfFloors = numberOfFloors;
@@ -26,13 +30,22 @@ public class SimulatorView extends JFrame {
         cars = new Car[numberOfFloors][numberOfRows][numberOfPlaces];
 
         carParkView = new CarParkView();
+        setResizable(false);
+        setTitle("City Parking Groningen");
+
 
         //test for calling a new screen at the same time as that main runs
         SimpleGUI = new SimulatorGUI();
+        test = new SimulationSettingGUI();
+        test2 = new HistogramSettingGUI();
+        Titel = new TitleView();
 
         Container contentPane = getContentPane();
         contentPane.add(carParkView, BorderLayout.CENTER);
-        contentPane.add(SimpleGUI, BorderLayout.PAGE_END);
+        contentPane.add(SimpleGUI, BorderLayout.SOUTH);
+        contentPane.add(test, BorderLayout.WEST);
+        contentPane.add(test2, BorderLayout.EAST);
+        contentPane.add(Titel, BorderLayout.NORTH);
 
         pack();
         setVisible(true);

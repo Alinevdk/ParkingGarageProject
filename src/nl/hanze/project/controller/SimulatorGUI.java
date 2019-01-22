@@ -13,8 +13,11 @@ public class SimulatorGUI extends JPanel implements ActionListener{
     private JButton stepHundred;
     private JButton stop;
     private JButton start;
+    private JPanel test5;
 
     public SimulatorGUI() {
+
+        test5 = new JPanel();
         stepOne = new JButton("1 step");
         stepHundred = new JButton("100 steps");
         start = new JButton("Start");
@@ -32,6 +35,7 @@ public class SimulatorGUI extends JPanel implements ActionListener{
         stop.setBounds(430, 150, 100, 30);
         stop.addActionListener(this);
 
+        setBackground(Color.lightGray);
         add(stepOne);
         add(stepHundred);
         add(start);
