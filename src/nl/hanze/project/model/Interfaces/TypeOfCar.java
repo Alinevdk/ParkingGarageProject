@@ -1,4 +1,4 @@
-package nl.hanze.project.model;
+package nl.hanze.project.model.Interfaces;
 
 public interface TypeOfCar {
 

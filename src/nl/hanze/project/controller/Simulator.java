@@ -4,6 +4,7 @@ package nl.hanze.project.controller;
 //import nl.hanze.project.model.AdHocCar;
 //import nl.hanze.project.model.Car;
 import nl.hanze.project.model.*;
+import nl.hanze.project.model.Interfaces.TypeOfCar;
 import nl.hanze.project.view.HistogramView;
 import nl.hanze.project.view.SimulatorView;
 
@@ -13,7 +14,7 @@ import java.util.Random;
 import java.util.ArrayList;
 
 
-public class Simulator implements TypeOfCar{
+public class Simulator extends AbstractController implements TypeOfCar {
 
 
     public static List<Reservation> reservations;
