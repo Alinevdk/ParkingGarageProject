@@ -13,12 +13,9 @@ import java.util.Random;
 import java.util.ArrayList;
 
 
-public class Simulator {
+public class Simulator implements TypeOfCar{
 
-	private static final String AD_HOC = "1";
-	private static final String PASS = "2";
-	private static final String RESERVED = "3"; // Behandeld ReservedCars
-    private static final String RESERVATION = "4";
+
     public static List<Reservation> reservations;
 
     private double carsInGarage;
@@ -231,7 +228,7 @@ public class Simulator {
         return (int)Math.round(numberOfCarsPerHour / 60);	
     }
     
-    private void addArrivingCars(int numberOfCars, String type){
+    private void addArrivingCars(int numberOfCars, int type){
         // Add the cars to the back of the queue.
     	switch(type) {
     	case AD_HOC: 
