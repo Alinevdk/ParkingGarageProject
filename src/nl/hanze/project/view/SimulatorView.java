@@ -35,6 +35,7 @@ public class SimulatorView extends JFrame {
         setTitle("City Parking Groningen");
 
 
+
         //  test for calling a new screen at the same time as that main runs
         SimpleGUI = new SimulatorGUI();
         test = new SimulationSettingGUI();
