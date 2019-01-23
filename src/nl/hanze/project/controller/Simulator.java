@@ -50,6 +50,7 @@ public class Simulator extends AbstractController implements TypeOfCar {
         entrancePassQueue = new CarQueue();
         paymentCarQueue = new CarQueue();
         exitCarQueue = new CarQueue();
+
         simulatorView = new SimulatorView(3, 6, 30);
     }
 

@@ -1,11 +1,7 @@
 package nl.hanze.project.controller;
 
-import nl.hanze.project.view.TitleView;
-
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 /**
  * @author Willem Johan Schuringa

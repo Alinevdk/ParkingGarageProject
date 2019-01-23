@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63804060-5c61-490b-8826-e606df64cb63" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/nl/hanze/project/view/ChartView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parkeergaragev32/META-INF/parkeergaragev32.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parkeergaragev32/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parkeergaragev32/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parkeergaragev32/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parkeergaragev32/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parkeergaragev32/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parkeergaragev32/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parkeergaragev32/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parkeergaragev32/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parkeergaragev32/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parkeergaragev32/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/parkeergaragev32/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nl/hanze/project/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nl/hanze/project/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parkeergaragev32/nl/hanze/project/controller/TabController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parkeergaragev32/nl/hanze/project/controller/TabController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parkeergaragev32/nl/hanze/project/view/SettingsView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parkeergaragev32/nl/hanze/project/view/SettingsView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/parkeergaragev32/nl/hanze/project/view/SimulatorView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/parkeergaragev32/nl/hanze/project/view/SimulatorView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nl/hanze/project/controller/SimulationSettingGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nl/hanze/project/controller/SimulationSettingGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/nl/hanze/project/controller/Simulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nl/hanze/project/controller/Simulator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nl/hanze/project/view/HistogramView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nl/hanze/project/view/HistogramView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nl/hanze/project/controller/TabController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nl/hanze/project/controller/TabController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nl/hanze/project/view/SettingsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nl/hanze/project/view/SettingsView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nl/hanze/project/view/SimulatorView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/nl/hanze/project/view/SimulatorView.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,10 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/SimulatorView.java">
+        <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/SettingsView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="238">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,10 +35,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/controller/HistogramSettingGUI.java">
+        <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/ChartView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="221">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -52,70 +46,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/controller/SimulatorGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/TitleView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/model/dataforcontroller/ParkingGarageData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/model/AbstractModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/controller/AbstractController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            <state relative-caret-position="275">
+              <caret line="48" selection-start-line="48" selection-end-line="51" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/HistogramView.java">
+        <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/controller/SimulationSettingGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="167" column="31" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="31" />
+            <state relative-caret-position="343">
+              <caret line="76" column="58" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#999#1000#0" expanded="true" />
-                <element signature="e#1035#1036#0" expanded="true" />
-                <element signature="e#5811#5812#0" expanded="true" />
-                <element signature="e#5840#5841#0" expanded="true" />
-                <element signature="e#6701#6702#0" expanded="true" />
-                <element signature="e#6751#6752#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/controller/Simulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="126">
+              <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding>
                 <element signature="e#2145#2146#0" expanded="true" />
                 <element signature="e#2183#2184#0" expanded="true" />
@@ -150,85 +93,85 @@
       <find>numbeof</find>
       <find>etNumberOfFloors()</find>
       <find>setsize</find>
-      <find>run</find>
-      <find>simulatorview</find>
-      <find>createAndShow</find>
+      <find>weekDayArrivals</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/nl/hanze/project/Main.java" />
         <option value="$PROJECT_DIR$/src/nl/hanze/project/view/CarParkView.java" />
         <option value="$PROJECT_DIR$/src/nl/hanze/project/view/Test.form" />
-        <option value="$PROJECT_DIR$/src/nl/hanze/project/controller/SimulationSettingGUI.java" />
         <option value="$PROJECT_DIR$/src/nl/hanze/project/view/TitleView.java" />
         <option value="$PROJECT_DIR$/src/nl/hanze/project/controller/HistogramSettingGUI.java" />
         <option value="$PROJECT_DIR$/src/nl/hanze/project/controller/SimulatorGUI.java" />
-        <option value="$PROJECT_DIR$/src/nl/hanze/project/Main.java" />
         <option value="$PROJECT_DIR$/src/nl/hanze/project/view/SimulatorView.java" />
         <option value="$PROJECT_DIR$/src/nl/hanze/project/view/HistogramView.java" />
+        <option value="$PROJECT_DIR$/src/nl/hanze/project/view/ChartView.java" />
+        <option value="$PROJECT_DIR$/src/nl/hanze/project/controller/TabController.java" />
+        <option value="$PROJECT_DIR$/src/nl/hanze/project/view/SettingsView.java" />
         <option value="$PROJECT_DIR$/src/nl/hanze/project/controller/Simulator.java" />
+        <option value="$PROJECT_DIR$/src/nl/hanze/project/controller/SimulationSettingGUI.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="812" />
-    <option name="width" value="1115" />
-    <option name="height" value="1048" />
+    <option name="x" value="813" />
+    <option name="width" value="1114" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="parkeergaragev3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parkeergaragev3" type="462c0819:PsiDirectoryNode" />
+              <item name="parkeergaragev332" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkeergaragev332" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="parkeergaragev3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parkeergaragev3" type="462c0819:PsiDirectoryNode" />
+              <item name="parkeergaragev332" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkeergaragev332" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="parkeergaragev3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parkeergaragev3" type="462c0819:PsiDirectoryNode" />
+              <item name="parkeergaragev332" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkeergaragev332" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="parkeergaragev3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parkeergaragev3" type="462c0819:PsiDirectoryNode" />
+              <item name="parkeergaragev332" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkeergaragev332" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="parkeergaragev3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parkeergaragev3" type="462c0819:PsiDirectoryNode" />
+              <item name="parkeergaragev332" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkeergaragev332" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="parkeergaragev3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parkeergaragev3" type="462c0819:PsiDirectoryNode" />
+              <item name="parkeergaragev332" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkeergaragev332" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="dataforcontroller" type="462c0819:PsiDirectoryNode" />
+              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="parkeergaragev3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parkeergaragev3" type="462c0819:PsiDirectoryNode" />
+              <item name="parkeergaragev332" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkeergaragev332" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
@@ -237,13 +180,20 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548236108562" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548240135150" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../parkeergarage" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nl.hanze.project.view" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -257,20 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HistogramView">
-    <configuration name="HistogramView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nl.hanze.project.view.HistogramView" />
-      <module name="parkeergaragev32" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="nl.hanze.project.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nl.hanze.project.Main" />
       <module name="parkeergaragev32" />
@@ -286,7 +223,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HistogramView" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -305,19 +241,18 @@
       <workItem from="1548169476449" duration="8183000" />
       <workItem from="1548181361968" duration="601000" />
       <workItem from="1548187353618" duration="1120000" />
-      <workItem from="1548231808948" duration="1955000" />
-      <workItem from="1548234551857" duration="1449000" />
+      <workItem from="1548231808948" duration="5784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13591000" />
+    <option name="totallyTimeSpent" value="15971000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15100671" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14925373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -326,7 +261,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22521247" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22643554" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -336,7 +271,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3261105" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.17705382" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.17659806" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -352,11 +287,24 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/java/awt/Container.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.desktop/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="511" selection-start-line="511" selection-end-line="511" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/model/Interfaces/TypeOfCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/controller/AbstractController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -375,25 +323,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/CarParkView.java" />
-    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/Test.form" />
-    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/controller/SimulationSettingGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/controller/SimulatorGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/model/AbstractModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -401,55 +330,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/controller/AbstractController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/Test.form">
+      <provider selected="true" editor-type-id="ui-designer" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/model/dataforcontroller/ParkingGarageData.java">
+    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/controller/HistogramSettingGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="102">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/TitleView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/SimulatorView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="17">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/TitleView.java">
+    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/HistogramView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="632">
+          <caret line="177" column="1" lean-forward="true" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#5822#5823#0" expanded="true" />
+            <element signature="e#5851#5852#0" expanded="true" />
+            <element signature="e#6718#6719#0" expanded="true" />
+            <element signature="e#6768#6769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/ChartView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/SettingsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/controller/TabController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/controller/Simulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="126">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding>
             <element signature="e#2145#2146#0" expanded="true" />
             <element signature="e#2183#2184#0" expanded="true" />
@@ -457,18 +418,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/view/HistogramView.java">
+    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/controller/SimulatorGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="167" column="31" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="31" />
+        <state relative-caret-position="275">
+          <caret line="48" selection-start-line="48" selection-end-line="51" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/nl/hanze/project/controller/SimulationSettingGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="76" column="58" selection-start-line="76" selection-start-column="58" selection-end-line="76" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#5811#5812#0" expanded="true" />
-            <element signature="e#5840#5841#0" expanded="true" />
-            <element signature="e#6701#6702#0" expanded="true" />
-            <element signature="e#6751#6752#0" expanded="true" />
           </folding>
         </state>
       </provider>

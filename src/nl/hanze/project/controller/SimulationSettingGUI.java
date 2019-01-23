@@ -16,6 +16,7 @@ public class SimulationSettingGUI extends JPanel implements ActionListener{
     private JLabel title;
     private JSlider slider;
     private JSlider slider1;
+    private JButton resetButton;
 
     public SimulationSettingGUI() {
         Box box = Box.createVerticalBox();
@@ -35,16 +36,18 @@ public class SimulationSettingGUI extends JPanel implements ActionListener{
         /**
          * Creeert een slider waarmee een value tussen 0 en 250 kan worden geselecteerd
          */
-        slider = new JSlider(JSlider.HORIZONTAL,0,20,0);
+        slider = new JSlider(JSlider.HORIZONTAL,0,250,0);
         slider.setMajorTickSpacing(5);
         slider.setPaintTicks(true);
         slider.setBackground(Color.lightGray);
-        slider.setMinimum(0);
-        slider.setMaximum(250);
         box.add(slider);
         //title.set();
         setBackground(Color.GRAY);
         title.setForeground(Color.WHITE);
+
+        resetButton = new JButton("Reset to Default");
+        resetButton.addActionListener(this);
+        box.add(resetButton);
 
         /**
          * Link met simulator values toevoegen zodat waardes in realtime gemanipuleerd kunnen worden
@@ -69,8 +72,11 @@ public class SimulationSettingGUI extends JPanel implements ActionListener{
       //  slider1.addChangeListener(e);
     }
 
-    public void actionPerformed(ActionEvent e) {
-
+    public void actionPerformed(ActionEvent resetSimulationListener) {
+        if (resetSimulationListener.getSource() == resetButton) {
+            JOptionPane.showMessageDialog(null, "Resetting the simulation settings will disrupt any currently running or paused simulation of City Parking Groningen and reset the simulation to it's initial state");
+            //tick()
+        }
     }
 
     /**

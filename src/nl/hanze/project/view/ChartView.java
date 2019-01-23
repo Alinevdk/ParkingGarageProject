@@ -8,10 +8,10 @@ import nl.hanze.project.controller.TabController;
  * @author Willem Johan Schuringa
  * @version 0.2
  */
-public class SettingsView extends TabController
+public class ChartView extends TabController
 {
-    public SettingsView() {
+    public ChartView() {
         // initialiseert & maakt een tab-menu
-        tabbedPane.addTab("Settings", new SimulationSettingGUI());
+        tabbedPane.addTab("Settings", new TitleView());
     }
 }

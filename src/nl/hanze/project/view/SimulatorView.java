@@ -18,9 +18,9 @@ public class SimulatorView extends JFrame {
 
     //the Simple GUI that is created being called
     private SimulatorGUI SimpleGUI;
-    private SimulationSettingGUI test;
     private TabController test2;
     private TitleView Titel;
+    private TabController test;
     private TabController tester;
 
     public SimulatorView(int numberOfFloors, int numberOfRows, int numberOfPlaces) {
@@ -40,7 +40,7 @@ public class SimulatorView extends JFrame {
 
         //  test for calling a new screen at the same time as that main runs
         SimpleGUI = new SimulatorGUI();
-        test = new SimulationSettingGUI();
+        test = new ChartView();
         test2 = new SettingsView();
         Titel = new TitleView();
 
@@ -51,7 +51,7 @@ public class SimulatorView extends JFrame {
         // Element at the TOP of the application
         contentPane.add(Titel, BorderLayout.NORTH);
         // Element at the RIGHT SIDE of the application
-        contentPane.add(tester,BorderLayout.EAST);
+        contentPane.add(test,BorderLayout.EAST);
         // Element at the BOTTOM of the application
         contentPane.add(SimpleGUI, BorderLayout.SOUTH);
         // Element at the LEFT SIDE of the application
