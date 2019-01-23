@@ -43,7 +43,8 @@ public class SimulationSettingGUI extends JPanel implements ActionListener{
         slider.setMaximum(250);
         box.add(slider);
         //title.set();
-        setBackground(Color.lightGray);
+        setBackground(Color.GRAY);
+        title.setForeground(Color.WHITE);
 
         /**
          * Link met simulator values toevoegen zodat waardes in realtime gemanipuleerd kunnen worden

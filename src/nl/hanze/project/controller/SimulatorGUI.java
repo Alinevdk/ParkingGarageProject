@@ -19,7 +19,7 @@ public class SimulatorGUI extends JPanel implements ActionListener{
       /*  Dimension dim = new Dimension();
         dim.setSize(0,30);
         setPreferredSize(dim); */
-        setBackground(Color.lightGray);
+        setBackground(Color.DARK_GRAY);
 
         test5 = new JPanel();
         stepOne = new JButton("1 step");

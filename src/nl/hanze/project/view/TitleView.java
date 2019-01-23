@@ -5,7 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-/**
+/**e
  * @author Casper Scholte-Albers & Willem Johan Schuringa
  * @version 0.3
  */
@@ -29,8 +29,8 @@ public class TitleView extends JPanel{
          * https://stackoverflow.com/questions/17884843/change-jlabel-font-size/17884919
          */
         title.setFont(title.getFont().deriveFont(50.0f));
-        setForeground(Color.WHITE);
-        setBackground(Color.lightGray);
+        title.setForeground(Color.WHITE);
+        setBackground(Color.darkGray);
 
         add(title);
 
