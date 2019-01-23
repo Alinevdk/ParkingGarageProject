@@ -11,19 +11,19 @@ import java.awt.event.ActionListener;
  * @author Willem Johan Schuringa
  * @version 0.3
  */
-public class HistogramSettingGUI extends JPanel {
-    public HistogramSettingGUI() {
+abstract public class TabController extends JPanel {
+    protected JTabbedPane tabbedPane;
+    public TabController() {
         /**
          * Panel settings
          */
         setBackground(Color.GRAY);
-
-        // Tabbed panel
-        JTabbedPane tabbedPane = new JTabbedPane(); // initialiseert & maakt een tab-menu
-        tabbedPane.addTab("Histogram Bezetting", new TitleView());
-        tabbedPane.addTab("Histogram Winst", new TitleView());
-
+        /**
+         * Panel initialization
+         */
+        tabbedPane = new JTabbedPane();
         tabbedPane.setTabPlacement(JTabbedPane.TOP);
         add(tabbedPane);
+
     }
 }
