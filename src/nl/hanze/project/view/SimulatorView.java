@@ -9,6 +9,7 @@ import java.awt.*;
 
 public class SimulatorView extends JFrame {
 
+//    private final GraphView graphView;
     private CarParkView carParkView;
     private int numberOfFloors;
     private int numberOfRows;
@@ -44,7 +45,6 @@ public class SimulatorView extends JFrame {
         test2 = new SettingsView();
         Titel = new TitleView();
 
-
         Container contentPane = getContentPane();
         // Element at the MIDDLE of the application
         contentPane.add(carParkView, BorderLayout.CENTER);
@@ -56,7 +56,6 @@ public class SimulatorView extends JFrame {
         contentPane.add(SimpleGUI, BorderLayout.SOUTH);
         // Element at the LEFT SIDE of the application
         contentPane.add(tester, BorderLayout.WEST);
-
 
         pack();
         setVisible(true);

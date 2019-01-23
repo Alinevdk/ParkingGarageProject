@@ -5,7 +5,7 @@ package nl.hanze.project.controller;
 //import nl.hanze.project.model.Car;
 import nl.hanze.project.model.*;
 import nl.hanze.project.model.Interfaces.TypeOfCar;
-import nl.hanze.project.view.HistogramView;
+import nl.hanze.project.view.GraphView;
 import nl.hanze.project.view.SimulatorView;
 
 import java.util.List;
@@ -19,8 +19,8 @@ public class Simulator extends AbstractController implements TypeOfCar {
 
     public static List<Reservation> reservations;
 
-    private double carsInGarage;
-    private static List<Double> population = new ArrayList<>();
+    private int carsInGarage;
+    private static List<Integer> population = new ArrayList<>();
     private CarQueue entranceCarQueue;
     private CarQueue entrancePassQueue; // wordt gebruikt voor ParkingPassCar & ReservedCar
     private CarQueue paymentCarQueue;
@@ -91,13 +91,11 @@ public class Simulator extends AbstractController implements TypeOfCar {
         while (minute > 59) {
             minute -= 60;
             hour++;
-
+            updateGraph();
         }
         while (hour > 23) {
             hour -= 24;
             day++;
-            List<Double> data = Simulator.getPopulation();
-            carsInGarage = 0;
         }
         while (day > 6) {
             day -= 7;
@@ -105,6 +103,11 @@ public class Simulator extends AbstractController implements TypeOfCar {
 
     }
 
+    //adds data point to "population graph"
+    private void updateGraph(){
+        population.add(getCarsInGarage());
+
+    }
     private void handleEntrance(){
     	carsArriving();
     	carsEntering(entrancePassQueue);
@@ -288,9 +291,9 @@ public class Simulator extends AbstractController implements TypeOfCar {
      * @author Maurice Wijker
      */
 
-    public double getCarsInGarage(){ return this.carsInGarage ;};
+    public int getCarsInGarage(){ return this.carsInGarage ;};
 
-    public static List<Double> getPopulation() {
+    public static List<Integer> getPopulation() {
         return population;
     }
 }
