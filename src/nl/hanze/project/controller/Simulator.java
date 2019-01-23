@@ -90,18 +90,12 @@ public class Simulator extends AbstractController implements TypeOfCar {
         while (minute > 59) {
             minute -= 60;
             hour++;
-            population.add(carsInGarage);
+
         }
         while (hour > 23) {
             hour -= 24;
             day++;
             List<Double> data = Simulator.getPopulation();
-
-            final HistogramView historgram = HistogramView.from(data);
-            final Map<Integer, Integer> frequencies = historgram.histogram(11);
-
-            System.out.println(frequencies);
-            System.out.println(historgram.toString(24));
             carsInGarage = 0;
         }
         while (day > 6) {

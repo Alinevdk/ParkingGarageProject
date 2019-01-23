@@ -12,5 +12,7 @@ public class Main {
     {
         Simulator sim = new Simulator();
         sim.run();
+
+
     }
 }
